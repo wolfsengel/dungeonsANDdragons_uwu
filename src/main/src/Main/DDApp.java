@@ -17,18 +17,22 @@ public class DDApp {
         System.out.println(p2 + " vs " + p3);
         System.out.println("-----------------------------");
         while (p1.salud > 0 && p3.salud > 0) {
+            System.out.println(p1 + " ataca a " + p3);
             p1.ataca(p3);
             if (p3.salud <= 0) {
                 break;
             }
+            System.out.println(p3 + " ataca a " + p1);
             p3.ataca(p1);
         }
         System.out.println("-----------------------------");
         while (p2.salud > 0 && p3.salud > 0) {
+            System.out.println(p2 + " ataca a " + p3);
             p2.ataca(p3);
             if (p3.salud <= 0) {
                 break;
             }
+            System.out.println(p3 + " ataca a " + p2);
             p3.ataca(p2);
         }
         System.out.println("-----------------------------");
