@@ -4,9 +4,11 @@ import dd.App.Personaje;
 
 public class AtaqueEspada implements Ataque {
     private final int valorAtaque;
+
     public AtaqueEspada() {
         valorAtaque = 300;
     }
+
 
     @Override
     public void lanzaAtaque(Personaje enemigo) {

@@ -29,7 +29,6 @@ public class DDApp {
         System.out.println("Presiona cualquier tecla para continuar...");
         scanner.nextLine();
 
-
         Personaje p1 = new Rey("Rey Arturo");
         Personaje p2 = new Caballero("Caballero Oscuro");
         Personaje p3 = new Troll("Troll Gigante");
